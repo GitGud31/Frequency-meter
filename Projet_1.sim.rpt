@@ -1,0 +1,309 @@
+Simulator report for Projet_1
+Mon Jan 14 20:44:18 2019
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 2.0 s        ;
+; Simulation Netlist Size     ; 94 nodes     ;
+; Simulation Coverage         ;      54.90 % ;
+; Total Number of Transitions ; 32645        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C20F484C7 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      54.90 % ;
+; Total nodes checked                                 ; 94           ;
+; Total output ports checked                          ; 102          ;
+; Total output ports with complete 1/0-value coverage ; 56           ;
+; Total output ports with no 1/0-value coverage       ; 46           ;
+; Total output ports with no 1-value coverage         ; 46           ;
+; Total output ports with no 0-value coverage         ; 46           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                        ;
++--------------------------------+--------------------------------+------------------+
+; Node Name                      ; Output Port Name               ; Output Port Type ;
++--------------------------------+--------------------------------+------------------+
+; |Projet_1|comp_une_sec[0]      ; |Projet_1|comp_une_sec[0]      ; regout           ;
+; |Projet_1|comp_une_sec[1]      ; |Projet_1|comp_une_sec[1]      ; regout           ;
+; |Projet_1|comp_une_sec[2]      ; |Projet_1|comp_une_sec[2]      ; regout           ;
+; |Projet_1|comp_une_sec[3]      ; |Projet_1|comp_une_sec[3]      ; regout           ;
+; |Projet_1|comp_une_sec[4]      ; |Projet_1|comp_une_sec[4]      ; regout           ;
+; |Projet_1|comp_une_sec[5]      ; |Projet_1|comp_une_sec[5]      ; regout           ;
+; |Projet_1|comp_une_sec[6]      ; |Projet_1|comp_une_sec[6]      ; regout           ;
+; |Projet_1|comp_une_sec[7]      ; |Projet_1|comp_une_sec[7]      ; regout           ;
+; |Projet_1|comp_une_sec[8]      ; |Projet_1|comp_une_sec[8]      ; regout           ;
+; |Projet_1|comp_une_sec[9]      ; |Projet_1|comp_une_sec[9]      ; regout           ;
+; |Projet_1|comp_une_sec[0]~20   ; |Projet_1|comp_une_sec[0]~20   ; combout          ;
+; |Projet_1|comp_une_sec[0]~20   ; |Projet_1|comp_une_sec[0]~21   ; cout             ;
+; |Projet_1|comp_une_sec[1]~22   ; |Projet_1|comp_une_sec[1]~22   ; combout          ;
+; |Projet_1|comp_une_sec[1]~22   ; |Projet_1|comp_une_sec[1]~23   ; cout             ;
+; |Projet_1|comp_une_sec[2]~24   ; |Projet_1|comp_une_sec[2]~24   ; combout          ;
+; |Projet_1|comp_une_sec[2]~24   ; |Projet_1|comp_une_sec[2]~25   ; cout             ;
+; |Projet_1|comp_une_sec[3]~26   ; |Projet_1|comp_une_sec[3]~26   ; combout          ;
+; |Projet_1|comp_une_sec[3]~26   ; |Projet_1|comp_une_sec[3]~27   ; cout             ;
+; |Projet_1|comp_une_sec[4]~28   ; |Projet_1|comp_une_sec[4]~28   ; combout          ;
+; |Projet_1|comp_une_sec[4]~28   ; |Projet_1|comp_une_sec[4]~29   ; cout             ;
+; |Projet_1|comp_une_sec[5]~30   ; |Projet_1|comp_une_sec[5]~30   ; combout          ;
+; |Projet_1|comp_une_sec[5]~30   ; |Projet_1|comp_une_sec[5]~31   ; cout             ;
+; |Projet_1|comp_une_sec[6]~32   ; |Projet_1|comp_une_sec[6]~32   ; combout          ;
+; |Projet_1|comp_une_sec[6]~32   ; |Projet_1|comp_une_sec[6]~33   ; cout             ;
+; |Projet_1|comp_une_sec[7]~34   ; |Projet_1|comp_une_sec[7]~34   ; combout          ;
+; |Projet_1|comp_une_sec[7]~34   ; |Projet_1|comp_une_sec[7]~35   ; cout             ;
+; |Projet_1|comp_une_sec[8]~36   ; |Projet_1|comp_une_sec[8]~36   ; combout          ;
+; |Projet_1|comp_une_sec[8]~36   ; |Projet_1|comp_une_sec[8]~37   ; cout             ;
+; |Projet_1|comp_une_sec[9]~38   ; |Projet_1|comp_une_sec[9]~38   ; combout          ;
+; |Projet_1|une_sec              ; |Projet_1|une_sec              ; regout           ;
+; |Projet_1|comp_unite[0]        ; |Projet_1|comp_unite[0]        ; regout           ;
+; |Projet_1|comp_unite[1]        ; |Projet_1|comp_unite[1]        ; regout           ;
+; |Projet_1|LessThan0~0          ; |Projet_1|LessThan0~0          ; combout          ;
+; |Projet_1|LessThan0~1          ; |Projet_1|LessThan0~1          ; combout          ;
+; |Projet_1|comp_unite~4         ; |Projet_1|comp_unite~4         ; combout          ;
+; |Projet_1|comp_unite~5         ; |Projet_1|comp_unite~5         ; combout          ;
+; |Projet_1|comp_unite~6         ; |Projet_1|comp_unite~6         ; combout          ;
+; |Projet_1|LessThan0~1_wirecell ; |Projet_1|LessThan0~1_wirecell ; combout          ;
+; |Projet_1|S                    ; |Projet_1|S                    ; padio            ;
+; |Projet_1|comp_sec[0]          ; |Projet_1|comp_sec[0]          ; padio            ;
+; |Projet_1|comp_sec[1]          ; |Projet_1|comp_sec[1]          ; padio            ;
+; |Projet_1|comp_sec[2]          ; |Projet_1|comp_sec[2]          ; padio            ;
+; |Projet_1|comp_sec[3]          ; |Projet_1|comp_sec[3]          ; padio            ;
+; |Projet_1|comp_sec[4]          ; |Projet_1|comp_sec[4]          ; padio            ;
+; |Projet_1|comp_sec[5]          ; |Projet_1|comp_sec[5]          ; padio            ;
+; |Projet_1|comp_sec[6]          ; |Projet_1|comp_sec[6]          ; padio            ;
+; |Projet_1|comp_sec[7]          ; |Projet_1|comp_sec[7]          ; padio            ;
+; |Projet_1|comp_sec[8]          ; |Projet_1|comp_sec[8]          ; padio            ;
+; |Projet_1|comp_sec[9]          ; |Projet_1|comp_sec[9]          ; padio            ;
+; |Projet_1|unite[0]             ; |Projet_1|unite[0]             ; padio            ;
+; |Projet_1|unite[1]             ; |Projet_1|unite[1]             ; padio            ;
+; |Projet_1|H                    ; |Projet_1|H~corein             ; combout          ;
+; |Projet_1|Ve                   ; |Projet_1|Ve~corein            ; combout          ;
+; |Projet_1|Ve~clkctrl           ; |Projet_1|Ve~clkctrl           ; outclk           ;
+; |Projet_1|H~clkctrl            ; |Projet_1|H~clkctrl            ; outclk           ;
+; |Projet_1|une_sec~clkctrl      ; |Projet_1|une_sec~clkctrl      ; outclk           ;
++--------------------------------+--------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                       ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |Projet_1|comp_unite[2]      ; |Projet_1|comp_unite[2]      ; regout           ;
+; |Projet_1|comp_unite[3]      ; |Projet_1|comp_unite[3]      ; regout           ;
+; |Projet_1|comp_dizaine[0]    ; |Projet_1|comp_dizaine[0]    ; regout           ;
+; |Projet_1|comp_dizaine[1]    ; |Projet_1|comp_dizaine[1]    ; regout           ;
+; |Projet_1|comp_dizaine[2]    ; |Projet_1|comp_dizaine[2]    ; regout           ;
+; |Projet_1|comp_dizaine[3]    ; |Projet_1|comp_dizaine[3]    ; regout           ;
+; |Projet_1|comp_centaine[0]   ; |Projet_1|comp_centaine[0]   ; regout           ;
+; |Projet_1|comp_centaine[1]   ; |Projet_1|comp_centaine[1]   ; regout           ;
+; |Projet_1|comp_centaine[2]   ; |Projet_1|comp_centaine[2]   ; regout           ;
+; |Projet_1|comp_centaine[3]   ; |Projet_1|comp_centaine[3]   ; regout           ;
+; |Projet_1|comp_millier[0]    ; |Projet_1|comp_millier[0]    ; regout           ;
+; |Projet_1|comp_millier[1]    ; |Projet_1|comp_millier[1]    ; regout           ;
+; |Projet_1|comp_millier[2]    ; |Projet_1|comp_millier[2]    ; regout           ;
+; |Projet_1|comp_millier[3]    ; |Projet_1|comp_millier[3]    ; regout           ;
+; |Projet_1|comp_unite~7       ; |Projet_1|comp_unite~7       ; combout          ;
+; |Projet_1|comp_dizaine~4     ; |Projet_1|comp_dizaine~4     ; combout          ;
+; |Projet_1|LessThan1~0        ; |Projet_1|LessThan1~0        ; combout          ;
+; |Projet_1|comp_dizaine~5     ; |Projet_1|comp_dizaine~5     ; combout          ;
+; |Projet_1|comp_dizaine~6     ; |Projet_1|comp_dizaine~6     ; combout          ;
+; |Projet_1|comp_dizaine~7     ; |Projet_1|comp_dizaine~7     ; combout          ;
+; |Projet_1|comp_centaine~8    ; |Projet_1|comp_centaine~8    ; combout          ;
+; |Projet_1|LessThan2~0        ; |Projet_1|LessThan2~0        ; combout          ;
+; |Projet_1|comp_centaine[0]~9 ; |Projet_1|comp_centaine[0]~9 ; combout          ;
+; |Projet_1|comp_centaine~10   ; |Projet_1|comp_centaine~10   ; combout          ;
+; |Projet_1|comp_centaine~11   ; |Projet_1|comp_centaine~11   ; combout          ;
+; |Projet_1|comp_centaine~12   ; |Projet_1|comp_centaine~12   ; combout          ;
+; |Projet_1|comp_millier~12    ; |Projet_1|comp_millier~12    ; combout          ;
+; |Projet_1|LessThan3~0        ; |Projet_1|LessThan3~0        ; combout          ;
+; |Projet_1|comp_millier[0]~13 ; |Projet_1|comp_millier[0]~13 ; combout          ;
+; |Projet_1|comp_millier~14    ; |Projet_1|comp_millier~14    ; combout          ;
+; |Projet_1|comp_millier~15    ; |Projet_1|comp_millier~15    ; combout          ;
+; |Projet_1|comp_millier~16    ; |Projet_1|comp_millier~16    ; combout          ;
+; |Projet_1|unite[2]           ; |Projet_1|unite[2]           ; padio            ;
+; |Projet_1|unite[3]           ; |Projet_1|unite[3]           ; padio            ;
+; |Projet_1|dizaine[0]         ; |Projet_1|dizaine[0]         ; padio            ;
+; |Projet_1|dizaine[1]         ; |Projet_1|dizaine[1]         ; padio            ;
+; |Projet_1|dizaine[2]         ; |Projet_1|dizaine[2]         ; padio            ;
+; |Projet_1|dizaine[3]         ; |Projet_1|dizaine[3]         ; padio            ;
+; |Projet_1|centaine[0]        ; |Projet_1|centaine[0]        ; padio            ;
+; |Projet_1|centaine[1]        ; |Projet_1|centaine[1]        ; padio            ;
+; |Projet_1|centaine[2]        ; |Projet_1|centaine[2]        ; padio            ;
+; |Projet_1|centaine[3]        ; |Projet_1|centaine[3]        ; padio            ;
+; |Projet_1|millier[0]         ; |Projet_1|millier[0]         ; padio            ;
+; |Projet_1|millier[1]         ; |Projet_1|millier[1]         ; padio            ;
+; |Projet_1|millier[2]         ; |Projet_1|millier[2]         ; padio            ;
+; |Projet_1|millier[3]         ; |Projet_1|millier[3]         ; padio            ;
++------------------------------+------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                       ;
++------------------------------+------------------------------+------------------+
+; Node Name                    ; Output Port Name             ; Output Port Type ;
++------------------------------+------------------------------+------------------+
+; |Projet_1|comp_unite[2]      ; |Projet_1|comp_unite[2]      ; regout           ;
+; |Projet_1|comp_unite[3]      ; |Projet_1|comp_unite[3]      ; regout           ;
+; |Projet_1|comp_dizaine[0]    ; |Projet_1|comp_dizaine[0]    ; regout           ;
+; |Projet_1|comp_dizaine[1]    ; |Projet_1|comp_dizaine[1]    ; regout           ;
+; |Projet_1|comp_dizaine[2]    ; |Projet_1|comp_dizaine[2]    ; regout           ;
+; |Projet_1|comp_dizaine[3]    ; |Projet_1|comp_dizaine[3]    ; regout           ;
+; |Projet_1|comp_centaine[0]   ; |Projet_1|comp_centaine[0]   ; regout           ;
+; |Projet_1|comp_centaine[1]   ; |Projet_1|comp_centaine[1]   ; regout           ;
+; |Projet_1|comp_centaine[2]   ; |Projet_1|comp_centaine[2]   ; regout           ;
+; |Projet_1|comp_centaine[3]   ; |Projet_1|comp_centaine[3]   ; regout           ;
+; |Projet_1|comp_millier[0]    ; |Projet_1|comp_millier[0]    ; regout           ;
+; |Projet_1|comp_millier[1]    ; |Projet_1|comp_millier[1]    ; regout           ;
+; |Projet_1|comp_millier[2]    ; |Projet_1|comp_millier[2]    ; regout           ;
+; |Projet_1|comp_millier[3]    ; |Projet_1|comp_millier[3]    ; regout           ;
+; |Projet_1|comp_unite~7       ; |Projet_1|comp_unite~7       ; combout          ;
+; |Projet_1|comp_dizaine~4     ; |Projet_1|comp_dizaine~4     ; combout          ;
+; |Projet_1|LessThan1~0        ; |Projet_1|LessThan1~0        ; combout          ;
+; |Projet_1|comp_dizaine~5     ; |Projet_1|comp_dizaine~5     ; combout          ;
+; |Projet_1|comp_dizaine~6     ; |Projet_1|comp_dizaine~6     ; combout          ;
+; |Projet_1|comp_dizaine~7     ; |Projet_1|comp_dizaine~7     ; combout          ;
+; |Projet_1|comp_centaine~8    ; |Projet_1|comp_centaine~8    ; combout          ;
+; |Projet_1|LessThan2~0        ; |Projet_1|LessThan2~0        ; combout          ;
+; |Projet_1|comp_centaine[0]~9 ; |Projet_1|comp_centaine[0]~9 ; combout          ;
+; |Projet_1|comp_centaine~10   ; |Projet_1|comp_centaine~10   ; combout          ;
+; |Projet_1|comp_centaine~11   ; |Projet_1|comp_centaine~11   ; combout          ;
+; |Projet_1|comp_centaine~12   ; |Projet_1|comp_centaine~12   ; combout          ;
+; |Projet_1|comp_millier~12    ; |Projet_1|comp_millier~12    ; combout          ;
+; |Projet_1|LessThan3~0        ; |Projet_1|LessThan3~0        ; combout          ;
+; |Projet_1|comp_millier[0]~13 ; |Projet_1|comp_millier[0]~13 ; combout          ;
+; |Projet_1|comp_millier~14    ; |Projet_1|comp_millier~14    ; combout          ;
+; |Projet_1|comp_millier~15    ; |Projet_1|comp_millier~15    ; combout          ;
+; |Projet_1|comp_millier~16    ; |Projet_1|comp_millier~16    ; combout          ;
+; |Projet_1|unite[2]           ; |Projet_1|unite[2]           ; padio            ;
+; |Projet_1|unite[3]           ; |Projet_1|unite[3]           ; padio            ;
+; |Projet_1|dizaine[0]         ; |Projet_1|dizaine[0]         ; padio            ;
+; |Projet_1|dizaine[1]         ; |Projet_1|dizaine[1]         ; padio            ;
+; |Projet_1|dizaine[2]         ; |Projet_1|dizaine[2]         ; padio            ;
+; |Projet_1|dizaine[3]         ; |Projet_1|dizaine[3]         ; padio            ;
+; |Projet_1|centaine[0]        ; |Projet_1|centaine[0]        ; padio            ;
+; |Projet_1|centaine[1]        ; |Projet_1|centaine[1]        ; padio            ;
+; |Projet_1|centaine[2]        ; |Projet_1|centaine[2]        ; padio            ;
+; |Projet_1|centaine[3]        ; |Projet_1|centaine[3]        ; padio            ;
+; |Projet_1|millier[0]         ; |Projet_1|millier[0]         ; padio            ;
+; |Projet_1|millier[1]         ; |Projet_1|millier[1]         ; padio            ;
+; |Projet_1|millier[2]         ; |Projet_1|millier[2]         ; padio            ;
+; |Projet_1|millier[3]         ; |Projet_1|millier[3]         ; padio            ;
++------------------------------+------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Full Version
+    Info: Processing started: Mon Jan 14 20:44:17 2019
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Projet_1 -c Projet_1
+Info: Using vector source file "C:/Users/Kratos/Desktop/Master/4 fpga et vhdl/TP/projet/Projet_1.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      54.90 %
+Info: Number of transitions in simulation is 32645
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 184 megabytes
+    Info: Processing ended: Mon Jan 14 20:44:18 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

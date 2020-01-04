@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.740 ns
+From           : Ve
+To             : comp_millier[1]
+From Clock     : --
+To Clock       : Ve
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 16.924 ns
+From           : comp_unite[0]~latch
+To             : unite[3]
+From Clock     : H
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.271 ns
+From           : Ve
+To             : unite[3]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.453 ns
+From           : Ve
+To             : comp_unite[3]~latch
+From Clock     : --
+To Clock       : H
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Ve'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 44.36 MHz ( period = 22.542 ns )
+From           : comp_unite[0]~latch
+To             : comp_millier[1]
+From Clock     : Ve
+To Clock       : Ve
+Failed Paths   : 0
+
+Type           : Clock Setup: 'H'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 150.97 MHz ( period = 6.624 ns )
+From           : comp_unite[0]~latch
+To             : comp_unite[3]~latch
+From Clock     : H
+To Clock       : H
+Failed Paths   : 0
+
+Type           : Clock Hold: 'H'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : une_sec
+To             : comp_unite[3]~latch
+From Clock     : H
+To Clock       : H
+Failed Paths   : 4
+
+Type           : Clock Hold: 'Ve'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : comp_unite[3]~_emulated
+To             : comp_unite[3]~latch
+From Clock     : Ve
+To Clock       : Ve
+Failed Paths   : 3
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 7
+
+--------------------------------------------------------------------------------------
+
