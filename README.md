@@ -1,5 +1,11 @@
 # Documentation fr
 
+## Description 
+Ce projet consiste à faire la réalisation d’un fréquence metre
+doté de 3 calibres, à base de cartes FPGA.
+
+
+
 |UNIVERSITE DES SCIENCES ET DE LA TECHNOLOGIE D'ORAN MOHAMED BODIAF DEPRATEMENT D'ELECTRONIQUE|
 | :-: |
 |Rapport du projet FPGA/VHDL|
