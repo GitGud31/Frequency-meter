@@ -13,7 +13,6 @@
 ||
 | :- |
 
-**
 
 1. **Introduction :**
 
@@ -229,6 +228,4 @@ Après avoir traduit notre schéma synoptique en description VHDL, nous avons v�
 **ANNEXE** 
 
 **Description VHDL** 
-
-` `PAGE   \\* MERGEFORMAT 9
 
